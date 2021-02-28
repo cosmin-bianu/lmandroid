@@ -1,11 +1,10 @@
-import 'file:///C:/Users/Cosmin/OneDrive/Documents/AndroidStudioProjects/drept_civil/lib/models/course.dart';
+//import 'file:///C:/Users/Cosmin/OneDrive/Documents/AndroidStudioProjects/drept_civil/lib/models/course.dart'; FIXME
 import 'package:parse_server_sdk/parse_server_sdk.dart';
 
 class AppClient {
-  static const String _APPLICATION_ID =
-      "guERjvFkyaTF3xVSTMz0zfyVIH4BoKyBwHbqqFpS";
-  static const String _CLIENT_KEY = "QZUYABr3AxMxoMRTiioo2yRsGV1Yq1ciXnRdvwCW";
-  static const String _ENDPOINT = "https://parseapi.back4app.com";
+  static const String _APPLICATION_ID = ""; //TODO
+  static const String _CLIENT_KEY = ""; //TODO
+  static const String _ENDPOINT = ""; //TODO
 
   ParseUser _currentUser;
   bool _isAuthenticated;
