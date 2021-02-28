@@ -1,4 +1,4 @@
-//import 'file:///C:/Users/Cosmin/OneDrive/Documents/AndroidStudioProjects/drept_civil/lib/models/course.dart'; FIXME
+import 'package:drept_civil/models/course.dart';
 import 'package:parse_server_sdk/parse_server_sdk.dart';
 
 class AppClient {
