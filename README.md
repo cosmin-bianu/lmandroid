@@ -18,15 +18,15 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h3 align="center">Lesson Manangement Dashboard</h3>
+  <h3 align="center">Lesson Manangement App</h3>
 
   <p align="center">
     An Android application used to retrieve chapters and lessons from a Parse server whose database can be managed by the <a href="https://github.com/cosmin-bianu/lmdashboard"> Lesson Management Dashboard </a>. This allows for lessons to be displayed in byte-sized chunks in the form of cards. This project has been developed to aid schools in delivering lessons during the COVID-19 pandemic.
     <br />
     <br />
-    <a href="https://github.com/cosmin-bianu/lmandroid/issues">Report a bug</a>
+    <a href="https://github.com/cosmin-bianu/lmapp/issues">Report a bug</a>
     .
-    <a href="https://github.com/cosmin-bianu/lmandroid/issues">Request Feature</a>
+    <a href="https://github.com/cosmin-bianu/lmapp/issues">Request Feature</a>
   </p>
 </p>
 
@@ -76,7 +76,7 @@ To get a local copy up and running follow these simple steps.
 * An Android device with [USB debugging](https://developer.android.com/studio/debug/dev-options) enabled
 * [Android Studio](https://developer.android.com/studio)
 * [Flutter](https://flutter.dev)
-* A Parse server with 3rd party hosting using a provider of your choice or on a [self-hosted platform](https://appwrite.io/). You can modify the application to use your own backend [here](https://github.com/cosmin-bianu/lmandroid/blob/68e473d6b024e58a4180242fe9b165f97f36d504/lib/services/app_client.dart#L5) (Lines 5-7)
+* A Parse server with 3rd party hosting using a provider of your choice or on a [self-hosted platform](https://appwrite.io/). You can modify the application to use your own backend [here](https://github.com/cosmin-bianu/lmapp/blob/68e473d6b024e58a4180242fe9b165f97f36d504/lib/services/app_client.dart#L5) (Lines 5-7)
 * (OPTIONAL) [Lesson Management Dashboard](https://github.com/cosmin-bianu/lmdashboard)
 
 ### Installation
@@ -85,7 +85,7 @@ To get a local copy up and running follow these simple steps.
 #### Android
 1. Clone the Lesson Management App
    ```sh
-   git clone https://github.com/cosmin-bianu/lmandroid.git lmandroid
+   git clone https://github.com/cosmin-bianu/lmapp.git lmapp
    ```
 2. Open it in Android Studio
 3. Configure the project to point to your Parse/backend server
@@ -105,7 +105,7 @@ TODO
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/cosmin-bianu/lmandroid/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/cosmin-bianu/lmapp/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -132,20 +132,20 @@ Distributed under the Apache 2.0 License. See `LICENSE` for more information.
 
 Cosmin Bianu - kitsune.cosmin@gmail.com
 
-Project Link: [https://github.com/cosmin-bianu/lmandroid](https://github.com/cosmin-bianu/lmandroid)
+Project Link: [https://github.com/cosmin-bianu/lmapp](https://github.com/cosmin-bianu/lmapp)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/cosmin-bianu/lmandroid.svg?style=for-the-badge
-[contributors-url]: https://github.com/cosmin-bianu/lmandroid/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/cosmin-bianu/lmandroid.svg?style=for-the-badge
-[forks-url]: https://github.com/cosmin-bianu/lmandroid/network/members
-[stars-shield]: https://img.shields.io/github/stars/cosmin-bianu/lmandroid.svg?style=for-the-badge
-[stars-url]: https://github.com/cosmin-bianu/lmandroid/stargazers
-[issues-shield]: https://img.shields.io/github/issues/cosmin-bianu/lmandroid.svg?style=for-the-badge
-[issues-url]: https://github.com/cosmin-bianu/lmandroid/issues
-[license-shield]: https://img.shields.io/github/license/cosmin-bianu/lmandroid.svg?style=for-the-badge
-[license-url]: https://github.com/cosmin-bianu/lmandroid/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/cosmin-bianu/lmapp.svg?style=for-the-badge
+[contributors-url]: https://github.com/cosmin-bianu/lmapp/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/cosmin-bianu/lmapp.svg?style=for-the-badge
+[forks-url]: https://github.com/cosmin-bianu/lmapp/network/members
+[stars-shield]: https://img.shields.io/github/stars/cosmin-bianu/lmapp.svg?style=for-the-badge
+[stars-url]: https://github.com/cosmin-bianu/lmapp/stargazers
+[issues-shield]: https://img.shields.io/github/issues/cosmin-bianu/lmapp.svg?style=for-the-badge
+[issues-url]: https://github.com/cosmin-bianu/lmapp/issues
+[license-shield]: https://img.shields.io/github/license/cosmin-bianu/lmapp.svg?style=for-the-badge
+[license-url]: https://github.com/cosmin-bianu/lmapp/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/cosmin-bianu
